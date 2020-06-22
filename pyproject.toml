@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gomoku"
+version = "0.1.0"
+description = ""
+authors = ["cclin <cclinet@163.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.0"
+sphinx = "^3.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple"
+default = true
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
